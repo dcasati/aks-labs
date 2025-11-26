@@ -82,9 +82,9 @@ const config: Config = {
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
         blogRouteBasePath: '/',  // Adjust to match your blog route
-        docsRouteBasePath: [],   // Use [] if docs disabled, or ['/docs'] if enabled
+        docsRouteBasePath: ['/docs'],   // Use [] if docs disabled, or ['/docs'] if enabled
         indexBlog: true,         // Set to true to index blog
-        indexDocs: false,        // Set to true to index docs
+        indexDocs: true,        // Set to true to index docs
       },
     ],
   ],
